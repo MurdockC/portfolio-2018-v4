@@ -1,0 +1,9 @@
+[31-May-2017 23:26:24 Europe/Moscow] PHP Fatal error:  Cannot redeclare source::getApplication() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 57
+[31-May-2017 23:26:58 Europe/Moscow] PHP Fatal error:  Cannot redeclare source::getApplication() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 57
+[31-May-2017 23:27:17 Europe/Moscow] PHP Fatal error:  Cannot redeclare source::getApplication() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 57
+[31-May-2017 23:27:46 Europe/Moscow] PHP Fatal error:  Cannot redeclare source::getApplication() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 57
+[31-May-2017 23:27:51 Europe/Moscow] PHP Fatal error:  Call to undefined method source::getConversion() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 117
+[31-May-2017 23:29:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 108
+[31-May-2017 23:29:07 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 108
+[31-May-2017 23:30:15 Europe/Moscow] PHP Fatal error:  Call to undefined method source::getConversion() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 118
+[31-May-2017 23:30:16 Europe/Moscow] PHP Fatal error:  Call to undefined method source::getConversion() in /home/rmwsites/public_html/template_2017/assets/source/source.php on line 118

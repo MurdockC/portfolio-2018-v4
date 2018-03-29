@@ -1,0 +1,239 @@
+//Variables
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[project__Title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+
+// Reset
+// Theme Variables
+// Base Rules
+// Helper Selectors
+// Modules
+// State Rules "states of the modules"
+// Responsive
+
+$primary-color: #8E754E  ; //#F3CE66
+$secondary-color: #FF7B56 ;
+$black: #1F1F1F ;
+$dark: #575757 ;
+$light: #D2D2D2 ;
+$white: #FEFEFE;
+
+$base-unit: 12px;
+
+body{
+ max-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', serif;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  max-width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// sub for body
+
+.flex {
+ display: flex;
+}
+
+.container--Height100 {
+  min-height: 100vh;
+}
+
+//helper classes
+.padding--s {
+  padding: $base-unit / 2;
+}
+
+.padding--lg {
+  padding: $base-unit * 2;
+}
+
+.margin--sm {
+  margin: $base-unit /2;
+}
+
+.margin--lg {
+  margin: $base-unit * 2;
+}
+
+.primary-bg {
+  background-color: $primary-color;
+}
+
+.jc--c {
+  justify-content: center;
+}
+
+.ai--c {
+  align-items: center;
+}
+
+.container--Width100 {
+  width: 100%;
+}
+.container--1200 {
+  display: flex;
+  flex-grow: 1;
+  max-width: 1200px;
+}
+
+.container--960 {
+  max-width: 960px;
+}
+
+//Modules
+
+.container {
+  display: flex;
+  background-color: $black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-top: $base-unit * 4.5;
+  > div {
+    // background-image: url("/assets/images/dist/1.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 300px;
+  }
+}
+
+.gallery__Project--container {
+  position: relative;
+  display: flex;
+  flex: 1 1 300px;
+  height: 300px;
+  transition: all .5s;
+  img {
+   perspective: 800px;
+    filter: grayscale(100%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: rotateX(50deg)  rotateY(10deg) rotateZ(-30deg);
+  transition: all 2s;
+  }
+}
+
+.gallery__Project--container:hover {
+transform:  translate(10px, -10px) scale(1.1,1.1);
+img {
+  filter: grayscale(0%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: rotatex(0deg) rotate(0deg) scale(1.1,1.1);
+  transition: all .7s;
+  }
+}
+
+// may not need this
+.gallery__Project--container:before {
+	content: '';
+		position: absolute;
+		height: 50%;
+		width: 80%;
+		top:25%;
+		right:10%;
+		background-image: linear-gradient(to bottom, rgba( $primary-color, .3 ),rgba( $primary-color, .0 ));
+}
+
+.nav_Container {
+  border-bottom: 2px solid $primary-color;
+  position: fixed;
+  padding: 0px 20px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 30px 30px 50px $black;
+}
+
+.nav  {
+  display: flex;
+  background-color: $black;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav__Button--container {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  color: $primary-color;
+  align-items: center;
+  font-size: 12px;
+  margin-left: $base-unit / 2;
+  margin-right: $base-unit / 2;
+}
+
+.button--light {
+ color: $dark;
+ background-color: $primary-color;
+}
+
+.container__Column {
+  flex-direction: column;
+}
+.project__Title {
+  position: absolute;
+  font-size: 1.3em;
+  transform: rotate(-17deg) translate(-15px, -130px) ;
+  color: $primary-color;
+  transition: all .5s;
+}
+
+.gallery__Project--container:hover > .project__Title {
+  transform:  translate(-85px, -155px) scale(1.1,1.1);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.about {
+  color: $primary-color;
+  max-width: 800px;
+  font-size: 16px;
+}
+
+//Possibly get rid of this as well
+.gradient-text {
+  font-size: 15px;
+  background: -webkit-linear-gradient(-45deg, $primary-color, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+//Possibly get rid of this
+.gradient-text-2 {
+  font-size: 15px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about_Portrait {
+ width: 50vw;
+ max-width: 300px;
+}
+
+.index_Logo {
+ height: 50vh;
+ width: auto;
+}
