@@ -25,7 +25,7 @@ gulp.task('image-min', function () {
 });
 
 gulp.task('php', function() {
-    php.server({ base: '../new_portfolio', port: 8081, keepalive: true});
+    php.server({ base: '../portfolio-2018-v4', port: 8081, keepalive: true});
 });
 
 gulp.task('browser-sync',['php'], function() {
