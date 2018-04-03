@@ -5,40 +5,54 @@
 
 	include('assets/includes/header.php');?>
 
-	<section class="flex bg-p h-100 jc--c w-f">
-		<div class="flex h-100 ai--c w-1200">
-			<div class="flex column h-100 jc--c">
+	<section class="header flex bg-p jc--c w-f">
+		<div class="flex ai--c w-1200">
+			<div class="flex column jc--c">
 				<h1 class="header-txt">Caleb<br>Murdock</h1>
 				<p>Designer - Coder</p>
 			</div>
 		</div>
 	</section>
-	<section class="gallery flex bg-d h-100 jc--c w-f">
-		<div class="flex column h-100 ai--c jc--c w-1200">
+	<section class="gallery-projects flex bg-d  jc--c w-f">
+		<div class="flex column  ai--c jc--c w-1200">
 				<h1 class="txt-w">Projects</h1>
-				<div class="gallery flex w-100">
-					<div class="flex gallery_item gallery_item_1 m-s"></div>
-					<div class="flex gallery_item gallery_item_2 m-s"></div>
-					<div class="flex gallery_item gallery_item_3 m-s"></div>
-					<div class="flex gallery_item gallery_item_4 m-s"></div>
-					<div class="flex gallery_item gallery_item_5 m-s"></div>
-					<div class="flex gallery_item gallery_item_6 m-s"></div>
-					<div class="flex gallery_item gallery_item_7 m-s"></div>
-					<div class="flex gallery_item gallery_item_8 m-s"></div>
+				<div class="grid gallery ">
+					<div class="flex gallery_item gallery_item_1 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_2 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_3 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_4 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_5 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_6 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_7 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_8 m-s">Hello</div>
 				</div>
 		</div>
 	</section>
- <section class="flex h-100 jc--c w-f">
-  <div class="flex column w-50  bg-p jc--c ai--c">
+
+
+ <section class="quickwhips flex w-f">
+  <div class="flex column quickwhips-column bg-p jc--c ai--c">
    <h3>#quickwhips</h3>
    <p>These are projects I work on everymorning to practice and warm up.</p>
   </div>
-  <div class="w-50 bg-w ">
+  <div class="flex column quickwhips-column bg-w jc--c ai--c">
+		<div class="gallery-whips grid gallery ">
+			<div class="flex gallery_item gallery_item_1 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_2 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_3 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_4 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_5 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_6 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_7 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_8 m-s">Hello</div>
+		</div>
   </div>
  </section>
- <section class="flex h-100 jc--c w-f">
+
+
+ <section class="about flex jc--c w-f">
   <div class="flex column w-100  bg-p jc--c ai--c">
-   <h3>#quickwhips</h3>
+   <h3>about</h3>
    <p>These are projects I work on everymorning to practice and warm up.</p>
   </div>
  </section>

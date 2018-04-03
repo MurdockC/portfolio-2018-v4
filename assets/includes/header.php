@@ -13,8 +13,8 @@
 	<body>
 	<section class="w-f h-f">
   <div class="flex bg-p p-l w-100 jc--c ai--c">
-    <div class="flex w-1200 nav">
-    <a href="/index.php"><img class="logo" src="/assets/images/dist/logo-gold.png"></a>
+    <div class="flex w-1200 nav ai--c">
+    <a href="/index.php"><img class="logo" src="assets/images/dist/logo.png"></a>
   			<a href="/gallery.php"><div class="">Gallery</div></a>
   			<a href="about.php"><div class="">About</div></a>
   			<a href="contact.php"><div class="">Contact</div></a>
