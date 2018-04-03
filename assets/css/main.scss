@@ -28,7 +28,7 @@ body{
   text-transform: uppercase;
   letter-spacing: .2em;
   max-width: 100%;
-  // border: 2px solid blue;
+  border: 2px solid blue;
   padding: 0px;
   margin: 0px;
 }
@@ -72,6 +72,10 @@ a {
 
 .w-100 {
   min-width: 100%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 .w-1200 {
@@ -126,9 +130,13 @@ a {
 }
 .gallery {
   flex-wrap: wrap;
+  height: 600px;
+  overflow: none;
 }
+
 .gallery_item {
   height: 200px;
   width: 200px;
+  flex: 1 0 200px;
   background: $white;
 }

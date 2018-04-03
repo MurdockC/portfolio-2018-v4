@@ -17,15 +17,29 @@
 		<div class="flex column h-100 ai--c jc--c w-1200">
 				<h1 class="txt-w">Projects</h1>
 				<div class="gallery flex w-100">
-					<div class="gallery_item gallery_item_1"></div>
-					<div class="gallery_item gallery_item_2"></div>
-					<div class="gallery_item gallery_item_3"></div>
-					<div class="gallery_item gallery_item_4"></div>
-					<div class="gallery_item gallery_item_5"></div>
-					<div class="gallery_item gallery_item_6"></div>
-					<div class="gallery_item gallery_item_7"></div>
-					<div class="gallery_item gallery_item_8"></div>
+					<div class="flex gallery_item gallery_item_1 m-s"></div>
+					<div class="flex gallery_item gallery_item_2 m-s"></div>
+					<div class="flex gallery_item gallery_item_3 m-s"></div>
+					<div class="flex gallery_item gallery_item_4 m-s"></div>
+					<div class="flex gallery_item gallery_item_5 m-s"></div>
+					<div class="flex gallery_item gallery_item_6 m-s"></div>
+					<div class="flex gallery_item gallery_item_7 m-s"></div>
+					<div class="flex gallery_item gallery_item_8 m-s"></div>
 				</div>
 		</div>
 	</section>
+ <section class="flex h-100 jc--c w-f">
+  <div class="flex column w-50  bg-p jc--c ai--c">
+   <h3>#quickwhips</h3>
+   <p>These are projects I work on everymorning to practice and warm up.</p>
+  </div>
+  <div class="w-50 bg-w ">
+  </div>
+ </section>
+ <section class="flex h-100 jc--c w-f">
+  <div class="flex column w-100  bg-p jc--c ai--c">
+   <h3>#quickwhips</h3>
+   <p>These are projects I work on everymorning to practice and warm up.</p>
+  </div>
+ </section>
 </section>
