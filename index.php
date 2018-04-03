@@ -9,7 +9,7 @@
 		<div class="flex ai--c w-1200">
 			<div class="flex column jc--c">
 				<h1 class="header-txt">Caleb<br>Murdock</h1>
-				<p>Designer - Coder</p>
+				<p>Multi-Disciplinary Maker - Designer - Coder</p>
 			</div>
 		</div>
 	</section>
@@ -17,14 +17,14 @@
 		<div class="flex column  ai--c jc--c w-1200">
 				<h1 class="txt-w">Projects</h1>
 				<div class="grid gallery ">
-					<div class="flex gallery_item gallery_item_1 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_2 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_3 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_4 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_5 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_6 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_7 m-s">Hello</div>
-					<div class="flex gallery_item gallery_item_8 m-s">Hello</div>
+					<div class="flex gallery_item gallery_item_1 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_2 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_3 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_4 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_5 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_6 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_7 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+					<div class="flex gallery_item gallery_item_8 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
 				</div>
 		</div>
 	</section>
@@ -37,14 +37,14 @@
   </div>
   <div class="flex column quickwhips-column bg-w jc--c ai--c">
 		<div class="gallery-whips grid gallery ">
-			<div class="flex gallery_item gallery_item_1 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_2 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_3 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_4 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_5 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_6 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_7 m-s">Hello</div>
-			<div class="flex gallery_item gallery_item_8 m-s">Hello</div>
+			<div class="flex gallery_item gallery_item_1 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_2 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_3 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_4 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_5 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_6 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_7 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
+			<div class="flex gallery_item gallery_item_8 m-s"><img src="assets/images/dist/weirrd.jpg" alt="gallery image"></div>
 		</div>
   </div>
  </section>

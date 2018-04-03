@@ -60,7 +60,10 @@ a {
   margin: 0px;
   line-height: .8em;
   color: $dark;
-  transform: skewX(-35deg);
+  transform: skewX(-35deg) translateX(52px);
+  @include for-phone-only {
+    font-size: $base-unit * 3;
+  }
 
 }
 
@@ -164,6 +167,10 @@ a {
 }
 
 .gallery_item {
+  img {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 .gallery-projects, .about, .header {
@@ -191,4 +198,24 @@ a {
 
 .gallery-whips {
   width: 100%;
+}
+
+.desktop-hidden {
+  display: none;
+  @include for-phone-only {
+    display: block;
+  }
+}
+
+.desktop-visible {
+  display: block;
+  @include for-phone-only {
+    display: none;
+  }
+}
+
+.nav-align {
+  @include for-phone-only {
+    flex-direction: column;
+  }
 }
