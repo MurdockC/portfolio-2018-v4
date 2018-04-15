@@ -158,35 +158,44 @@ a {
   max-height: 70px;
   width: auto;
 }
+
+.gallery-projects {
+
+}
+
 .gallery {
-  width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  overflow: none;
-  justify-content: space-between;
-  color: white;
+ background-color: red;
+ flex-wrap: wrap;
+ min-height: 400px;
+ max-width: 800px;
+ @include for-phone-only {
+  min-height: 200px;
+  max-width: 400px;
+  height: 200px;
+  width: 400px;
+ }
 }
 
 .gallery_item {
-  img {
-    height: 300px;
-    width: 300px;
-  }
+ display: flex;
+ justify-content: center;
+ align-items: center;
+width: 200px;
+height:200px;
+@include for-phone-only {
+ width: 25%;
+ height: 50%;
+}
+img {
+ height: 100%;
+ width: 100%;
+}
 }
 
-.gallery-projects, .about, .header {
-  height: 70vh;
-  @include for-phone-only {
-    height: auto;
-  }
+.gallery-section {
+ flex: 1 0 auto;
 }
 
-.quickwhips {
-  height: 100vh;
-  @include for-phone-only {
-    height: auto;
-    flex-direction: column;
-  }
-}
 
 .quickwhips-column {
   flex: 1 0 auto;
